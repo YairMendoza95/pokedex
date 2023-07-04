@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  db:
+    image: mongo:5.0.0
+    restart: always
+    ports:
+      - 27017:27017 # <puerto_contendor>:<puerto_local>
+    environment:
+      MONGODB_DATABASE: NEST_POKEDEX
+    volumes:
+      - ./mongo:/data/db # <carpeta_local>:/data/db
+  
