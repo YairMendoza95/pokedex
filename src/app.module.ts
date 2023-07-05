@@ -15,7 +15,9 @@ import { SeedModule } from './seed/seed.module';
 			rootPath: join(__dirname, '..', 'public'), // Establece la ruta de los componentes públicos
 		}),
 		MongooseModule.forRoot('mongodb://localhost:27017/NEST_POKEDEX'), // Conexión a MongoDB
-		PokemonModule, CommonModule, SeedModule
+		PokemonModule,
+		CommonModule,
+		SeedModule
 	],
 	controllers: [],
 	providers: [],
