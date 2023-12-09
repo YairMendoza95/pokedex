@@ -36,3 +36,5 @@ lerna-debug.log*
 
 # Excepciones propias
 /mongo
+
+.env

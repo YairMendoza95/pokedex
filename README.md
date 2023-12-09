@@ -23,7 +23,15 @@ npm i -g @nestjs/cli
 docker-compose up -d
 ```
 
-5. Para pruebas en desarrollo, ejecutar el siguiente endpoint para reconstruir la BD
+5. Clonar el archivo `.env.template` y renombrar la compia a `.env`
+
+```
+http://localhost:3000/api/v2/seed
+```
+
+6. Llenar las variables de entorno definidas en el `.env`
+
+7. Para pruebas en desarrollo, ejecutar el siguiente endpoint para reconstruir la BD
 
 ```
 http://localhost:3000/api/v2/seed
