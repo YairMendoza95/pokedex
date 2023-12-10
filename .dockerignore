@@ -1,0 +1,8 @@
+# Contiene todos los archivos y directorios que no quieres que se almacenen en la imagen del contenedor
+
+dist/
+node_modules/
+
+.gitignore
+.git/
+
